@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "E-commerce platform",
+    description: "A eco-friendly online shopping website",
+    image: "/images/projects/GreenShell.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/surluna/GreenShell",
+    previewUrl: "https://green-shell.vercel.app/",
   },
   {
     id: 2,

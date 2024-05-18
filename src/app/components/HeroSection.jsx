@@ -17,18 +17,20 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m {"Vivien"}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Full Stack Developer",
                 1000,
                 "Web Developer",
                 1000,
                 "Mobile Developer",
                 1000,
                 "UI/UX Designer",
+                1000,
+                "Data Analyst",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Welcome to my profolio, please feel free to look around and get to know me.
           </p>
           <div>
             <Link
